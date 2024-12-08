@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+h1{
+    color: aliceblue;
+    margin-top: 26px;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.currency {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+#fromCurrency{
+    margin-bottom: 10px;
+    height: 5vh;
+    width: 40vh;
+    margin-left: 20%;
+}
+#toCurrency{
+    margin-bottom: 10px;
+    height: 5vh;
+    width: 40vh;
+    margin-left: 20%;
+}
+#container {
+    text-align: center;
+}
+#amount{
+    height: 5vh;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+ .containor{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; 
+    width: 30%;
+    height: 90vh;
+    margin-left: 34%;
+    margin-top: 30px;
+    background-color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 40px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.18);
+
+}
+#result{
+    margin-top: 10px;
+    color: aliceblue;
+}
